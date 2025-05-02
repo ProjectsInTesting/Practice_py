@@ -49,21 +49,26 @@ print(my_fruit)
 """
 
      # using For loop
-
-print("revers a list using For loop: ")
+"""print("revers a list using For loop: ") => The print(reversed_list) inside the 
+loop shows the list after each insertion
+"""
+"""
 my_fruit = ["banana", "Apple", "orange"]
 reversed_list = []
 for item in my_fruit:
     reversed_list.insert(0, item)
     print(reversed_list)
-
-
-
+"""
 
 # remove item from a list
+"""
+my_list = [1, 2, 3, 4]
+my_list.remove(1) # using remove > remove item by value
+print(my_list)
 
-
-
+del my_list[2]  # use del > delete by index
+print(my_list)
+"""
 
 # remove duplicate from list
 
