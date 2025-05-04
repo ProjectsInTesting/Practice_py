@@ -30,18 +30,6 @@ while True:                                          # 1
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 """
 Line 1: while True:
 Starts an infinite loop . This ensures the program keeps running until the user explicitly quits (via break later). The loop will repeat indefinitely unless interrupted.

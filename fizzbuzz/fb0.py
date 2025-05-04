@@ -10,17 +10,17 @@ while True:
 
     number = int (input("Please enter a number: "))
     if number % 3 == 0 and number % 5 == 0:
-        print("fizzbuzz")  #
+            print("fizzbuzz")  #
     elif number % 3 == 0:
-        print("Fizz")
+            print("Fizz")
     elif number % 5 == 0:
-        print("Buzz")
+            print("Buzz")
     else:
-        print(number)
+            print(number)
 
 
 
-    """ explaining the code:
+""" explaining the code:
 # create a variable called number which will be an integer and will ask a user to enter and integer number
 # so we will need to use if statement 
 # if number moduler (divisable) by 3 = 0 then print fizz

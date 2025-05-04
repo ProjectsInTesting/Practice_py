@@ -42,5 +42,11 @@ Step-by-Step Building of reversed_list:
 4th iteration: [4, 3, 2, 1]
 5th iteration: [5, 4, 3, 2, 1]
 Key Concept
-By always inserting new items at the front of reversed_list, we effectively build the list in reverse order compared to the original.
+By always inserting new items at the front of reversed_list, we effectively 
+build the list in reverse order compared to the original.
 """
+
+my_string = [1, 2, 3, 4]
+my_reversed = []
+for number in my_string:
+    my_reversed.insert
