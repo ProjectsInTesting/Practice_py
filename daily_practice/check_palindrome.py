@@ -10,3 +10,4 @@ if normalized_string == normalized_string[::-1]:
     print(f'"{input_string}" is a palindrome.')
 else:
     print(f'"{input_string}" is not a palindrome.')
+    
